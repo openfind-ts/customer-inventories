@@ -1,0 +1,13 @@
+---
+# 客戶 A 所有主機共用的設定
+ansible_user: opsadmin                               # 客戶給的維運帳號
+ansible_become: true
+ansible_ssh_private_key_file: ~/.ssh/customer-a      # 客戶專用金鑰，留在執行者的 ~/.ssh
+
+os_baseline_ntp_servers:
+  - ntp1.customer-a.example.com
+  - ntp2.customer-a.example.com
+
+# 密碼一律從 vault.yml 引用
+mg_admin_password: "{{ vault_mg_admin_password }}"
+m2k_admin_password: "{{ vault_m2k_admin_password }}"

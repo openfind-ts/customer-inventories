@@ -1,0 +1,5 @@
+---
+# 客戶 A 的 MG 差異。標準值（路徑、重啟指令）在 openfind-ansible 的 roles/mg/defaults，不重複寫
+mg_version: "6.2"
+mg_cert_src: "{{ inventory_dir }}/files/mg.crt"
+mg_key_src: "{{ inventory_dir }}/files/mg.key"      # 已用 ansible-vault 加密

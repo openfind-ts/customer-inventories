@@ -1,0 +1,3 @@
+---
+# 單台例外：mg01 早期安裝在不同路徑
+mg_install_dir: /opt/mailgates

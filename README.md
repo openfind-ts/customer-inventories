@@ -41,6 +41,6 @@ customer-inventories/
 │   │   ├── mg.yml
 │   │   └── m2k.yml
 │   └── host_vars/
-├── customer-a/          # 照 lab 的結構新增
+├── customer-a/          # 範例客戶（假資料，vault 範例密碼見該資料夾 README）
 └── scripts/check-encrypted.sh
 ```
