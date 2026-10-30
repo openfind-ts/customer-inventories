@@ -1,6 +1,8 @@
 # customer-inventories
 
-**私有 repo**：每個客戶一個資料夾，放主機清單、客戶差異設定，以及用 ansible-vault 加密過的密碼與憑證。
+**公開的範本 repo，只放假資料**：示範客戶資料怎麼放——每個客戶一個資料夾，放主機清單、客戶差異設定，以及用 ansible-vault 加密過的密碼與憑證。
+
+> **真實客戶不要放在這個 repo。** 請另外建一個**私有** repo（只開給負責該客戶的同仁），照這裡的結構放。
 程式（roles、playbooks）在公開的 [`openfind-ts/openfind-ansible`](https://github.com/openfind-ts/openfind-ansible)，這裡不放任何程式。
 
 ## 使用方式
